@@ -1,0 +1,36 @@
+.bold{
+    font-weight: bold;
+}
+
+.normal{
+    font-weight: normal;
+}
+   
+    .card{
+
+        background-color: blanchedalmond;
+        border: 2px solid black;
+        border-radius: 20px;
+        height: 250px;
+        width: 350px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    
+    }
+    
+    #cardsWrapper{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+    
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
